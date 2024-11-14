@@ -1,12 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:300");
 
-/*
-	Locus by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
-
 html,
 body,
 div,
@@ -3477,4 +3471,13 @@ button:disabled:active,
     top: 1em;
     width: calc(100% + 3em);
   }
+}
+
+#language {
+  width: auto;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 99;
 }
