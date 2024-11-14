@@ -2849,6 +2849,52 @@ button:disabled:active,
   min-width: 0;
 }
 
+/* Banner2 */
+
+#banner2 {
+  background-color: #2a2b2e;
+  background-image: url("images/overlay2.png"), url("../../images/Banh-tet.jpg");
+  background-position: top left, center center;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  border-top: 0 !important;
+  color: #cacacb;
+  padding: 6em 3em;
+  text-align: center;
+}
+
+#banner2 h2,
+#banner2 h3,
+#banner2 h4,
+#banner2 h5,
+#banner2 h6 {
+  color: #ffffff;
+}
+
+#banner2 h2 {
+  margin: 0 0 2em 0;
+}
+
+#banner2 .button {
+  border-color: #ffffff !important;
+  color: #ffffff !important;
+}
+
+#banner2 .button:hover {
+  background-color: rgba(207, 201, 214, 0.1);
+}
+
+#banner2 .button:active {
+  background-color: rgba(207, 201, 214, 0.25);
+}
+
+#banner2 > :last-child {
+  margin-bottom: 0;
+}
+
+#banner2 + section {
+  border-top: 0 !important;
+}
 /* Banner */
 
 #banner {
